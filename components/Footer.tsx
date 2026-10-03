@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Mail, Phone } from 'lucide-react'
+import { Mail } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -70,15 +70,9 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
                 <Mail size={16} />
-                <a href="mailto:hello@pooptroop.local" className="hover:text-white transition">
-                  hello@pooptroop.local
-                </a>
-              </li>
-              <li className="flex items-center gap-2">
-                <Phone size={16} />
-                <a href="tel:555-0123" className="hover:text-white transition">
-                  (555) 0123
-                </a>
+                <Link href="/contact" className="hover:text-white transition">
+                  Send us a message
+                </Link>
               </li>
             </ul>
           </div>

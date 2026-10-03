@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, Suspense } from 'react'
-import { useSearchParams, useRouter } from 'next/navigation'
+import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -18,7 +18,7 @@ const PLANS = {
       'Monthly service',
       'Yard cleanup',
       'Email support',
-      'Free first month',
+      'First cleaning free',
     ],
     stripePriceId: 'price_starter_monthly',
   },
@@ -33,7 +33,7 @@ const PLANS = {
       'Compost collection',
       'Premium support',
       'Schedule flexibility',
-      'Free first month',
+      'First cleaning free',
     ],
     stripePriceId: 'price_regular_monthly',
   },
@@ -48,7 +48,7 @@ const PLANS = {
       'Compost delivery',
       '24/7 support',
       'Free odor spray',
-      'Free first month',
+      'First cleaning free',
     ],
     stripePriceId: 'price_premium_monthly',
   },
@@ -56,7 +56,6 @@ const PLANS = {
 
 function SubscribeContent() {
   const searchParams = useSearchParams()
-  const router = useRouter()
   const [selectedPlan, setSelectedPlan] = useState<keyof typeof PLANS>(
     (searchParams.get('plan') as keyof typeof PLANS) || 'regular'
   )
@@ -75,7 +74,7 @@ function SubscribeContent() {
   })
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
-  const [submitted, setSubmitted] = useState(false)
+  const [submitted] = useState(false)
 
   const plan = PLANS[selectedPlan]
 
@@ -121,7 +120,7 @@ function SubscribeContent() {
       }
 
       const { url } = await response.json()
-      router.push(url)
+      window.location.assign(url)
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Something went wrong. Please try again.')
       setLoading(false)
@@ -153,7 +152,7 @@ function SubscribeContent() {
 
       <div className="container-max py-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-2">Subscribe to Poop Troop</h1>
-        <p className="text-gray-600 mb-12">Choose your plan and get started with your free first month</p>
+        <p className="text-gray-600 mb-12">Choose your plan and get your first cleaning free</p>
 
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Plan Selection */}
@@ -392,7 +391,7 @@ function SubscribeContent() {
                   <span className="text-2xl font-bold text-gray-900">${plan.price}</span>
                 </div>
                 <div className="flex justify-between items-baseline text-leaf-600 font-semibold">
-                  <span>First Month:</span>
+                  <span>First Cleaning:</span>
                   <span className="text-2xl">FREE</span>
                 </div>
               </div>
@@ -409,7 +408,7 @@ function SubscribeContent() {
 
               <div className="bg-leaf-50 rounded-lg p-4 text-sm text-leaf-900">
                 <p className="font-semibold mb-1">💚 Secure & Simple</p>
-                <p>You'll only be charged after your free first month. Cancel anytime.</p>
+                <p>Your card isn't charged until 14 days after you sign up, so your first cleaning is free. Cancel anytime before then and you pay nothing.</p>
               </div>
             </div>
           </div>

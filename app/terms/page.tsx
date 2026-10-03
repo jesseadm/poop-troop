@@ -60,10 +60,10 @@ export default function Terms() {
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">5. Subscription Terms</h2>
-            <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Free Trial:</h3>
+            <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Free First Cleaning:</h3>
             <ul className="list-disc list-inside space-y-2">
-              <li>New subscribers receive one free month of service</li>
-              <li>Billing begins on the first day of the second month</li>
+              <li>New customers receive their first cleaning free</li>
+              <li>For online subscriptions, billing begins 14 days after sign-up</li>
               <li>Your credit card will be charged on the billing date</li>
             </ul>
 

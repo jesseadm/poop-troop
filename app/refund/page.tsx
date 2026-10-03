@@ -13,10 +13,10 @@ export default function Refund() {
 
         <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Free Trial Period</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Free First Cleaning</h2>
             <p>
-              Poop Troop offers a 30-day free trial for all new customers. If you cancel within this
-              period before your first billing date, you will not be charged.
+              Every new customer's first cleaning is free. Online subscriptions include a 14-day free
+              period; if you cancel before your first billing date, you will not be charged.
             </p>
           </section>
 

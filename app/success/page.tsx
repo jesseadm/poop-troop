@@ -21,7 +21,7 @@ export default function Success() {
           </h1>
 
           <p className="text-xl text-gray-600 mb-4">
-            Your subscription is active and your free first month starts today!
+            Your subscription is active and your first cleaning is on us! Billing starts 14 days after sign-up.
           </p>
 
           <div className="bg-leaf-50 border-2 border-leaf-600 rounded-lg p-8 mb-8 text-left">

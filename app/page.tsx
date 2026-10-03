@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { CheckCircle, Leaf, Heart, Zap, Users, TrendingUp } from 'lucide-react'
+import { CheckCircle } from 'lucide-react'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
@@ -12,7 +12,7 @@ export default function Home() {
 
       {/* LIMITED TIME OFFER */}
       <section className="bg-leaf-600 text-white py-4 text-center font-bold">
-        <p className="text-lg">🎉 LIMITED TIME: Get Your First Cleaning FREE! No credit card required.</p>
+        <p className="text-lg">🎉 Your first cleaning is FREE. No credit card required.</p>
       </section>
 
       {/* HERO SECTION - The Problem (What's the ONE thing?) */}
@@ -27,7 +27,7 @@ export default function Home() {
                 Pet waste piling up in your yard? Composting seems complicated? Poop Troop takes the mess out of pet ownership—and turns it into gardening gold.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/subscribe" className="btn-primary text-center">
+                <Link href="/contact" className="btn-primary text-center">
                   Claim Your FREE First Cleaning
                 </Link>
                 <Link href="#how-it-works" className="btn-secondary text-center">
@@ -37,7 +37,7 @@ export default function Home() {
               <p className="text-sm text-gray-500 mt-6">🎁 First cleaning completely FREE • Then choose your plan • No credit card until you're ready</p>
             </div>
             <div className="bg-earth-100 rounded-2xl h-96 flex items-center justify-center shadow-xl overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1545127398-14699f92334b?w=600&h=600&fit=crop" alt="Happy kids outdoors" className="w-full h-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1785322344019-297053aae708?w=900&q=80&auto=format&fit=crop" alt="A little girl playing with her dog in a clean backyard" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -47,10 +47,10 @@ export default function Home() {
       <section className="py-20 md:py-28 bg-white">
         <div className="container-max">
           <h2 className="section-heading text-center">
-            Pet waste isn't your mess to make
+            Nobody likes scooping poop
           </h2>
           <p className="subheading text-center max-w-2xl mx-auto">
-            You've got better things to do than scoop poop. We get it.
+            You love your dog. You don't love what they leave behind.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mt-16">
@@ -86,7 +86,7 @@ export default function Home() {
         <div className="container-max">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="bg-white rounded-2xl h-96 flex items-center justify-center shadow-xl overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1503803278652-2408e34953a9?w=600&h=600&fit=crop" alt="Kids working in garden" className="w-full h-full object-cover" />
+              <img src="https://images.unsplash.com/photo-1574914629572-4b1d4c05e716?w=800&q=80&auto=format&fit=crop" alt="Sign reading If your dog poops, you scoop" className="w-full h-full object-cover" />
             </div>
             <div>
               <h2 className="section-heading">
@@ -105,7 +105,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="text-leaf-600 mt-1 flex-shrink-0" size={20} />
-                  <p className="text-gray-700">Compost collection transforms waste into garden gold</p>
+                  <p className="text-gray-700">Pet waste composted safely for lawns and flower beds</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="text-leaf-600 mt-1 flex-shrink-0" size={20} />
@@ -134,7 +134,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-12 mt-16">
             <div className="text-center">
               <div className="bg-earth-50 rounded-2xl mb-6 h-64 overflow-hidden shadow-md">
-                <img src="https://images.unsplash.com/photo-1552053831-71594a27c62d?w=400&h=400&fit=crop" alt="Dog playing in yard" className="w-full h-full object-cover" />
+                <img src="https://images.unsplash.com/photo-1709788938317-7e8d523b3a9a?w=600&q=80&auto=format&fit=crop" alt="Dog trotting across a lawn with a plastic bag" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Poop Scooping</h3>
               <p className="text-gray-600">
@@ -144,17 +144,17 @@ export default function Home() {
 
             <div className="text-center">
               <div className="bg-earth-50 rounded-2xl mb-6 h-64 overflow-hidden shadow-md">
-                <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=400&h=400&fit=crop" alt="Garden composting" className="w-full h-full object-cover" />
+                <img src="https://images.unsplash.com/photo-1716903282677-3a1b5c936b41?w=600&q=80&auto=format&fit=crop" alt="Wooden compost bins" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Compost Collection</h3>
               <p className="text-gray-600">
-                Waste transformed into gardening gold. We collect compost and help you nurture a healthier garden.
+                Pet waste composted the USDA-recommended way and turned into soil for lawns, flower beds, and landscaping (never vegetable gardens).
               </p>
             </div>
 
             <div className="text-center">
               <div className="bg-earth-50 rounded-2xl mb-6 h-64 overflow-hidden shadow-md">
-                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop" alt="Yard maintenance" className="w-full h-full object-cover" />
+                <img src="https://images.unsplash.com/photo-1634081727680-fa43e3237d5a?w=600&q=80&auto=format&fit=crop" alt="Red rake on a pile of autumn leaves" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Yard Cleanup</h3>
               <p className="text-gray-600">
@@ -209,7 +209,7 @@ export default function Home() {
               <div className="ml-16">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4 pt-2">Enjoy Your Yard</h3>
                 <p className="text-gray-600 mb-4">
-                  No more poop piles. No more guilt. Just a clean, fresh-smelling yard and compost ready to nourish your garden.
+                  No more poop piles. No more guilt. Just a clean, fresh-smelling yard and compost ready for your flower beds.
                 </p>
                 <div className="text-leaf-600 font-semibold">Breathe easy</div>
               </div>
@@ -328,51 +328,16 @@ export default function Home() {
       <section className="py-20 md:py-28 bg-white">
         <div className="container-max">
           <h2 className="section-heading text-center">
-            Loved by Pet Parents
+            Be One of Our First Customers
           </h2>
           <p className="subheading text-center max-w-2xl mx-auto">
-            See what people are saying about Poop Troop
+            We&apos;re brand new and building our reputation one yard at a time. Try a free cleaning, and if you love it, your review goes right here.
           </p>
 
-          <div className="grid md:grid-cols-3 gap-8 mt-16">
-            <div className="card">
-              <div className="flex items-center mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i} className="text-yellow-400">⭐</span>
-                ))}
-              </div>
-              <p className="text-gray-700 mb-4">
-                "I can't believe how much time this saves me. The yard is always pristine, and the kids are learning real business skills. Win-win!"
-              </p>
-              <div className="font-semibold text-gray-900">Sarah M.</div>
-              <div className="text-sm text-gray-600">Dog owner, 2 years</div>
-            </div>
-
-            <div className="card">
-              <div className="flex items-center mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i} className="text-yellow-400">⭐</span>
-                ))}
-              </div>
-              <p className="text-gray-700 mb-4">
-                "My cats have a cleaner box, my yard smells better, and I'm supporting young entrepreneurs. This is exactly what community should be."
-              </p>
-              <div className="font-semibold text-gray-900">Michael R.</div>
-              <div className="text-sm text-gray-600">Cat owner, 1 year</div>
-            </div>
-
-            <div className="card">
-              <div className="flex items-center mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i} className="text-yellow-400">⭐</span>
-                ))}
-              </div>
-              <p className="text-gray-700 mb-4">
-                "Reliable, professional, and friendly. These kids showed up exactly when they said they would, every time. Highly recommend!"
-              </p>
-              <div className="font-semibold text-gray-900">Jennifer T.</div>
-              <div className="text-sm text-gray-600">Multi-pet owner, 6 months</div>
-            </div>
+          <div className="mt-12 text-center">
+            <Link href="/contact" className="btn-primary inline-block">
+              Claim Your FREE First Cleaning
+            </Link>
           </div>
         </div>
       </section>
@@ -450,72 +415,48 @@ export default function Home() {
       <section className="py-20 md:py-28 bg-white">
         <div className="container-max">
           <h2 className="section-heading text-center">
-            The Science Behind It
+            Why Scooping Matters
           </h2>
           <p className="subheading text-center max-w-2xl mx-auto">
-            Research-backed benefits of proper pet waste management and yard maintenance
+            It&apos;s not just about smell. Here&apos;s what the experts say.
           </p>
 
-          <div className="grid md:grid-cols-2 gap-12 mt-16">
-            {/* Left column */}
-            <div className="space-y-8">
-              <div className="card border-l-4 border-leaf-600">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">🌱 Composting Reduces Waste</h3>
-                <p className="text-gray-600 mb-2">
-                  Pet waste composting can divert 10-15% of household waste from landfills annually. When composted properly, it transforms harmful waste into nutrient-rich soil amendment that enriches gardens.
-                </p>
-                <p className="text-sm text-gray-500 italic">Source: EPA Waste Management Research</p>
-              </div>
-
-              <div className="card border-l-4 border-earth-600">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">🧠 Mental Health Benefits</h3>
-                <p className="text-gray-600 mb-2">
-                  Studies show that regular yard maintenance and outdoor time reduces stress by 20-30% and improves mental health outcomes. Time in nature promotes focus and reduces anxiety.
-                </p>
-                <p className="text-sm text-gray-500 italic">Source: Journal of Environmental Psychology, 2022</p>
-              </div>
-
-              <div className="card border-l-4 border-leaf-600">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">💪 Kids Learn Responsibility</h3>
-                <p className="text-gray-600 mb-2">
-                  Children who engage in age-appropriate work develop stronger executive function skills and demonstrate 40% better problem-solving abilities. Entrepreneurship builds confidence and financial literacy.
-                </p>
-                <p className="text-sm text-gray-500 italic">Source: Developmental Psychology Review, 2023</p>
-              </div>
+          <div className="grid md:grid-cols-3 gap-8 mt-16">
+            <div className="card border-l-4 border-leaf-600">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">🧒 Safer Yards for Kids</h3>
+              <p className="text-gray-600 mb-4">
+                Roundworm eggs in dog and cat waste need 2–4 weeks in the soil before they can infect people, and children get infected most often. Weekly scooping removes waste before it becomes a risk.
+              </p>
+              <a href="https://www.cdc.gov/toxocariasis/spreads/" target="_blank" rel="noopener noreferrer" className="text-sm text-leaf-700 underline">
+                Source: CDC, How Toxocariasis Spreads
+              </a>
             </div>
 
-            {/* Right column */}
-            <div className="space-y-8">
-              <div className="card border-l-4 border-earth-600">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">🌍 Environmental Impact</h3>
-                <p className="text-gray-600 mb-2">
-                  Proper pet waste management prevents pathogenic contamination of groundwater. Pet waste in landfills takes 5+ years to decompose, while composted waste regenerates soil in 6-12 months.
-                </p>
-                <p className="text-sm text-gray-500 italic">Source: Environmental Science & Technology</p>
-              </div>
+            <div className="card border-l-4 border-earth-600">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">💧 Cleaner Local Water</h3>
+              <p className="text-gray-600 mb-4">
+                Every gram of pet waste contains about 20 million fecal coliform bacteria. Waste left in the yard washes into storm drains and on to local streams and lakes.
+              </p>
+              <a href="https://www.greensboro-nc.gov/departments/water-resources/stormwater-program/pollution-prevention/pet-waste" target="_blank" rel="noopener noreferrer" className="text-sm text-leaf-700 underline">
+                Source: City of Greensboro Stormwater Program
+              </a>
+            </div>
 
-              <div className="card border-l-4 border-leaf-600">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">🐕 Pet Health Connection</h3>
-                <p className="text-gray-600 mb-2">
-                  Regular yard maintenance reduces parasites and bacteria growth by up to 60%. Clean yards significantly decrease intestinal infections and skin conditions in pets.
-                </p>
-                <p className="text-sm text-gray-500 italic">Source: Veterinary Medicine Journal, 2023</p>
-              </div>
-
-              <div className="card border-l-4 border-earth-600">
-                <h3 className="text-xl font-bold text-gray-900 mb-3">🌿 Soil Quality Improvement</h3>
-                <p className="text-gray-600 mb-2">
-                  Composted material increases soil organic matter by 3-5% annually, improving water retention by 25% and boosting microbial biodiversity which strengthens plant immunity.
-                </p>
-                <p className="text-sm text-gray-500 italic">Source: Soil Science Society of America</p>
-              </div>
+            <div className="card border-l-4 border-leaf-600">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">🌱 Compost Done Right</h3>
+              <p className="text-gray-600 mb-4">
+                Properly composted dog waste is a safe soil additive for landscaping, according to USDA soil scientists. It should never be used on vegetable gardens or other food crops.
+              </p>
+              <a href="https://www.epa.gov/system/files/documents/2022-11/Composting-Dog-Waste-Booklet-Alaska.pdf" target="_blank" rel="noopener noreferrer" className="text-sm text-leaf-700 underline">
+                Source: USDA NRCS, Composting Dog Waste
+              </a>
             </div>
           </div>
 
           <div className="mt-16 bg-leaf-50 rounded-2xl p-8 text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">The Bottom Line</h3>
             <p className="text-lg text-gray-700">
-              Regular pet waste management isn't just about cleanliness—it's an investment in your family's health, your environment, and your kids' development. Poop Troop makes it easy.
+              A regularly scooped yard is healthier for your kids, your pets, and your neighborhood&apos;s water. Poop Troop makes it easy.
             </p>
           </div>
         </div>
@@ -532,16 +473,16 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/subscribe"
+              href="/contact"
               className="px-8 py-4 bg-white text-leaf-600 font-bold rounded-lg hover:bg-leaf-50 transition-colors"
             >
-              Subscribe Now
+              Claim Your FREE First Cleaning
             </Link>
             <Link
-              href="/contact"
+              href="/subscribe"
               className="px-8 py-4 border-2 border-white text-white font-bold rounded-lg hover:bg-leaf-700 transition-colors"
             >
-              Questions? Contact Us
+              See Plans
             </Link>
           </div>
         </div>

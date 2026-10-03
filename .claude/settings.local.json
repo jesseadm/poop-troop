@@ -5,7 +5,27 @@
       "Bash(git init *)",
       "Bash(git config *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Read(//Users/jessemaritan/Library/Application Support/Claude/scratch-workspaces/a66aea1a-80cc-45c3-84a9-2065f7c495c7/e5f82112-6df1-45c3-8f01-0aae711fff5a/**)",
+      "Bash(npm run *)",
+      "mcp__claude-in-chrome__navigate",
+      "mcp__claude-in-chrome__computer",
+      "mcp__claude-in-chrome__read_page",
+      "mcp__claude-in-chrome__get_page_text",
+      "mcp__claude-in-chrome__browser_batch",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(npm install *)",
+      "mcp__8a356e73-a796-4253-a743-242168bf20ac__netlify-user-services-reader",
+      "WebSearch",
+      "mcp__8a356e73-a796-4253-a743-242168bf20ac__get-netlify-coding-context",
+      "Bash(grep -v \"^$\")",
+      "Bash(npx tsc *)",
+      "Bash(python3 -)",
+      "Bash(python3 -m http.server 8765 --bind 127.0.0.1 --directory \"/private/tmp/claude-501/-Users-jessemartin-Library-Application-Support-Claude-scratch-workspaces-a66aea1a-80cc-45c3-84a9-2065f7c495c7-e5f82112-6df1-45c3-8f01-0aae711fff5a-scratch-2026-10-03-ec44a6/e77ecbac-29c9-4f05-8f35-646edcf586b2/scratchpad\")",
+      "Bash(npx next *)"
     ]
   }
 }

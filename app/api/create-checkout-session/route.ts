@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import Stripe from 'stripe'
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || '', {
-  apiVersion: '2024-04-10',
+  apiVersion: '2023-10-16',
 })
 
 const PLANS = {
@@ -58,7 +58,7 @@ export async function POST(request: NextRequest) {
         numberOfPets: customer.numberOfPets,
       },
       subscription_data: {
-        trial_period_days: 30, // Free first month
+        trial_period_days: 14,
         metadata: {
           plan,
           customerEmail: customer.email,
