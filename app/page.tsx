@@ -10,6 +10,11 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Header />
 
+      {/* LIMITED TIME OFFER */}
+      <section className="bg-leaf-600 text-white py-4 text-center font-bold">
+        <p className="text-lg">🎉 LIMITED TIME: Get Your First Cleaning FREE! No credit card required.</p>
+      </section>
+
       {/* HERO SECTION - The Problem (What's the ONE thing?) */}
       <section className="bg-gradient-to-b from-leaf-50 to-white py-20 md:py-32">
         <div className="container-max">
@@ -23,13 +28,13 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/subscribe" className="btn-primary text-center">
-                  Start Your Free Month
+                  Claim Your FREE First Cleaning
                 </Link>
                 <Link href="#how-it-works" className="btn-secondary text-center">
                   See How It Works
                 </Link>
               </div>
-              <p className="text-sm text-gray-500 mt-6">💳 No credit card required for first month</p>
+              <p className="text-sm text-gray-500 mt-6">🎁 First cleaning completely FREE • Then choose your plan • No credit card until you're ready</p>
             </div>
             <div className="bg-earth-100 rounded-2xl h-96 flex items-center justify-center shadow-xl overflow-hidden">
               <img src="https://images.unsplash.com/photo-1545127398-14699f92334b?w=600&h=600&fit=crop" alt="Happy kids outdoors" className="w-full h-full object-cover" />
@@ -523,7 +528,7 @@ export default function Home() {
             Ready to Reclaim Your Yard?
           </h2>
           <p className="text-xl text-leaf-100 mb-8 max-w-2xl mx-auto">
-            Start with a free month, no credit card required. Cancel anytime.
+            Get your first cleaning FREE. No credit card needed. Then choose your perfect plan.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
