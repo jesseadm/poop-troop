@@ -17,3 +17,5 @@ build/
 out/
 
 .netlify
+.claude/
+tsconfig.tsbuildinfo

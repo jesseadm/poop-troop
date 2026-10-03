@@ -16,7 +16,7 @@ const PLANS = {
     description: 'Perfect for small spaces',
     features: [
       'Monthly service',
-      'Yard cleanup',
+      'Full yard scooping',
       'Email support',
       'First cleaning free',
     ],

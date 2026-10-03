@@ -154,11 +154,11 @@ export default function Home() {
 
             <div className="text-center">
               <div className="bg-earth-50 rounded-2xl mb-6 h-64 overflow-hidden shadow-md">
-                <img src="https://images.unsplash.com/photo-1634081727680-fa43e3237d5a?w=600&q=80&auto=format&fit=crop" alt="Red rake on a pile of autumn leaves" className="w-full h-full object-cover" />
+                <img src="https://images.unsplash.com/photo-1567361809214-b97d828071d9?w=600&q=80&auto=format&fit=crop" alt="Hand tools laid out on a wooden table" className="w-full h-full object-cover" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">Yard Cleanup</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">Small Handyman Jobs</h3>
               <p className="text-gray-600">
-                Additional services including leaf collection, debris removal, and yard maintenance.
+                Need a hand with a small job around the house or yard? Tell us what it is and we'll let you know if we can help.
               </p>
             </div>
           </div>
@@ -244,7 +244,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-center gap-3">
                   <CheckCircle className="text-leaf-600" size={20} />
-                  <span className="text-gray-700">Yard cleanup</span>
+                  <span className="text-gray-700">Full yard scooping</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <CheckCircle className="text-leaf-600" size={20} />
