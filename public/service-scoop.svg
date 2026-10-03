@@ -1,0 +1,35 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dog Poop Scooping Service -->
+  <g>
+    <!-- Grass -->
+    <rect x="0" y="140" width="200" height="60" fill="#22c55e" opacity="0.3"/>
+    <path d="M 20 140 Q 25 120 30 140" stroke="#15803d" stroke-width="1.5" fill="none"/>
+    <path d="M 50 140 Q 55 115 60 140" stroke="#15803d" stroke-width="1.5" fill="none"/>
+    <path d="M 80 140 Q 85 120 90 140" stroke="#15803d" stroke-width="1.5" fill="none"/>
+    <path d="M 110 140 Q 115 115 120 140" stroke="#15803d" stroke-width="1.5" fill="none"/>
+    <path d="M 140 140 Q 145 120 150 140" stroke="#15803d" stroke-width="1.5" fill="none"/>
+    <path d="M 170 140 Q 175 115 180 140" stroke="#15803d" stroke-width="1.5" fill="none"/>
+
+    <!-- Dog body -->
+    <ellipse cx="70" cy="90" rx="20" ry="25" fill="#8B4513"/>
+    <circle cx="90" cy="85" r="15" fill="#8B4513"/>
+
+    <!-- Dog head -->
+    <circle cx="105" cy="70" r="12" fill="#8B4513"/>
+    <circle cx="112" cy="65" r="8" fill="#8B4513"/>
+    <circle cx="110" cy="72" r="3" fill="#000000"/>
+
+    <!-- Dog tail -->
+    <path d="M 50 95 Q 40 80 45 60" stroke="#8B4513" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+    <!-- Poop pile -->
+    <path d="M 30 125 Q 35 115 40 125 Q 42 115 45 125 Q 43 120 40 125" fill="#8a6248" stroke="#6d4f3b" stroke-width="1"/>
+
+    <!-- Poop scoop -->
+    <rect x="100" y="120" width="8" height="35" fill="#8b7355" stroke="#6d5a38" stroke-width="1"/>
+    <path d="M 95 155 Q 104 155 113 155" fill="#a0916f" stroke="#8b7355" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Happy face on scoop -->
+    <circle cx="104" cy="148" r="2" fill="#000000"/>
+  </g>
+</svg>

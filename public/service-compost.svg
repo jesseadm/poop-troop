@@ -1,0 +1,37 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Compost Bin Service -->
+  <g>
+    <!-- Ground -->
+    <rect x="0" y="150" width="200" height="50" fill="#8a6248" opacity="0.3"/>
+
+    <!-- Compost bin (wooden barrel) -->
+    <rect x="50" y="80" width="80" height="70" rx="5" fill="#8b7355" stroke="#6d5a38" stroke-width="2"/>
+
+    <!-- Lid -->
+    <path d="M 50 80 Q 90 65 130 80" fill="#a0916f" stroke="#6d5a38" stroke-width="1.5"/>
+
+    <!-- Wood texture -->
+    <line x1="50" y1="95" x2="130" y2="95" stroke="#6d5a38" stroke-width="0.5" opacity="0.5"/>
+    <line x1="50" y1="110" x2="130" y2="110" stroke="#6d5a38" stroke-width="0.5" opacity="0.5"/>
+    <line x1="50" y1="125" x2="130" y2="125" stroke="#6d5a38" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- Compost inside (brown matter) -->
+    <ellipse cx="90" cy="120" rx="30" ry="20" fill="#6d4f3b" opacity="0.7"/>
+
+    <!-- Lid handle -->
+    <circle cx="90" cy="70" r="5" fill="#a0916f" stroke="#6d5a38" stroke-width="1"/>
+
+    <!-- Leaves/materials falling in -->
+    <path d="M 60 50 L 65 80" stroke="#22c55e" stroke-width="2" opacity="0.7"/>
+    <path d="M 90 45 L 90 75" stroke="#22c55e" stroke-width="2" opacity="0.7"/>
+    <path d="M 120 50 L 115 80" stroke="#22c55e" stroke-width="2" opacity="0.7"/>
+
+    <!-- Happy face on bin -->
+    <circle cx="80" cy="100" r="2" fill="#000000"/>
+    <circle cx="100" cy="100" r="2" fill="#000000"/>
+    <path d="M 80 110 Q 90 115 100 110" stroke="#000000" stroke-width="1" fill="none"/>
+
+    <!-- Arrow pointing up (growth/nature) -->
+    <path d="M 160 120 L 160 100 L 155 105 M 160 100 L 165 105" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

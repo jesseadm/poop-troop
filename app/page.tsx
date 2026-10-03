@@ -31,8 +31,8 @@ export default function Home() {
               </div>
               <p className="text-sm text-gray-500 mt-6">💳 No credit card required for first month</p>
             </div>
-            <div className="bg-earth-100 rounded-2xl h-96 flex items-center justify-center text-8xl shadow-xl">
-              💩
+            <div className="bg-earth-100 rounded-2xl h-96 flex items-center justify-center shadow-xl">
+              <img src="/hero-poop.svg" alt="Poop Troop mascot" className="w-64 h-64" />
             </div>
           </div>
         </div>
@@ -80,8 +80,8 @@ export default function Home() {
       <section className="py-20 md:py-28 bg-leaf-50">
         <div className="container-max">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="bg-white rounded-2xl h-96 flex items-center justify-center text-8xl shadow-xl">
-              👧👦
+            <div className="bg-white rounded-2xl h-96 flex items-center justify-center shadow-xl">
+              <img src="/kids-working.svg" alt="Kids working and earning" className="w-64 h-64" />
             </div>
             <div>
               <h2 className="section-heading">
@@ -111,6 +111,50 @@ export default function Home() {
                   <p className="text-gray-700">Supporting local kids learning real business skills</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* OUR SERVICES - What we do */}
+      <section className="py-20 md:py-28 bg-white">
+        <div className="container-max">
+          <h2 className="section-heading text-center">
+            Our Services
+          </h2>
+          <p className="subheading text-center max-w-2xl mx-auto">
+            Everything your yard needs—all in one subscription
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-12 mt-16">
+            <div className="text-center">
+              <div className="bg-earth-50 rounded-2xl p-8 mb-6 h-64 flex items-center justify-center">
+                <img src="/service-scoop.svg" alt="Poop scooping service" className="w-48 h-48" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">Poop Scooping</h3>
+              <p className="text-gray-600">
+                Professional cleanup of dog and cat waste. We scoop thoroughly and leave your yard fresh and clean.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="bg-earth-50 rounded-2xl p-8 mb-6 h-64 flex items-center justify-center">
+                <img src="/service-compost.svg" alt="Compost collection" className="w-48 h-48" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">Compost Collection</h3>
+              <p className="text-gray-600">
+                Waste transformed into gardening gold. We collect compost and help you nurture a healthier garden.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="bg-earth-50 rounded-2xl p-8 mb-6 h-64 flex items-center justify-center">
+                <img src="/service-yard.svg" alt="Yard cleanup service" className="w-48 h-48" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">Yard Cleanup</h3>
+              <p className="text-gray-600">
+                Additional services including leaf collection, debris removal, and yard maintenance.
+              </p>
             </div>
           </div>
         </div>

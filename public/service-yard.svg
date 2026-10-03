@@ -1,0 +1,39 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Yard Cleanup Service -->
+  <g>
+    <!-- Sky -->
+    <rect x="0" y="0" width="200" height="100" fill="#87ceeb" opacity="0.2"/>
+
+    <!-- Ground -->
+    <rect x="0" y="100" width="200" height="100" fill="#8a6248" opacity="0.3"/>
+
+    <!-- Sun -->
+    <circle cx="160" cy="30" r="15" fill="#FFD700"/>
+
+    <!-- Rake -->
+    <rect x="40" y="50" width="6" height="80" fill="#8b7355" stroke="#6d5a38" stroke-width="1"/>
+    <circle cx="43" cy="50" r="8" fill="none" stroke="#8b7355" stroke-width="2"/>
+    <line x1="35" y1="55" x2="51" y2="55" stroke="#8b7355" stroke-width="2"/>
+    <line x1="34" y1="60" x2="52" y2="60" stroke="#8b7355" stroke-width="2"/>
+    <line x1="33" y1="65" x2="53" y2="65" stroke="#8b7355" stroke-width="2"/>
+
+    <!-- Leaves in pile -->
+    <ellipse cx="100" cy="130" rx="45" ry="35" fill="#22c55e" opacity="0.6"/>
+
+    <!-- Individual leaves -->
+    <path d="M 70 110 L 75 125 L 68 120 Z" fill="#16a34a"/>
+    <path d="M 110 105 L 118 120 L 108 118 Z" fill="#15803d"/>
+    <path d="M 130 115 L 135 130 L 125 125 Z" fill="#16a34a"/>
+    <path d="M 85 135 L 92 145 L 82 140 Z" fill="#15803d"/>
+    <path d="M 120 140 L 128 150 L 115 145 Z" fill="#16a34a"/>
+
+    <!-- Trash bag -->
+    <path d="M 140 90 L 145 130 L 155 130 L 160 90 Z" fill="#808080" stroke="#404040" stroke-width="1.5"/>
+    <circle cx="147" cy="110" r="2" fill="#404040"/>
+    <circle cx="153" cy="120" r="2" fill="#404040"/>
+
+    <!-- Happy cleanup mood -->
+    <circle cx="65" cy="120" r="3" fill="#FFD700"/>
+    <text x="65" y="155" font-size="20" text-anchor="middle" fill="#22c55e">✓</text>
+  </g>
+</svg>
