@@ -31,8 +31,8 @@ export default function Home() {
               </div>
               <p className="text-sm text-gray-500 mt-6">💳 No credit card required for first month</p>
             </div>
-            <div className="bg-earth-100 rounded-2xl h-96 flex items-center justify-center shadow-xl">
-              <img src="/hero-poop.svg" alt="Poop Troop mascot" className="w-64 h-64" />
+            <div className="bg-earth-100 rounded-2xl h-96 flex items-center justify-center shadow-xl overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1545127398-14699f92334b?w=600&h=600&fit=crop" alt="Happy kids outdoors" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -80,8 +80,8 @@ export default function Home() {
       <section className="py-20 md:py-28 bg-leaf-50">
         <div className="container-max">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="bg-white rounded-2xl h-96 flex items-center justify-center shadow-xl">
-              <img src="/kids-working.svg" alt="Kids working and earning" className="w-64 h-64" />
+            <div className="bg-white rounded-2xl h-96 flex items-center justify-center shadow-xl overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1503803278652-2408e34953a9?w=600&h=600&fit=crop" alt="Kids working in garden" className="w-full h-full object-cover" />
             </div>
             <div>
               <h2 className="section-heading">
@@ -128,8 +128,8 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-12 mt-16">
             <div className="text-center">
-              <div className="bg-earth-50 rounded-2xl p-8 mb-6 h-64 flex items-center justify-center">
-                <img src="/service-scoop.svg" alt="Poop scooping service" className="w-48 h-48" />
+              <div className="bg-earth-50 rounded-2xl mb-6 h-64 overflow-hidden shadow-md">
+                <img src="https://images.unsplash.com/photo-1552053831-71594a27c62d?w=400&h=400&fit=crop" alt="Dog playing in yard" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Poop Scooping</h3>
               <p className="text-gray-600">
@@ -138,8 +138,8 @@ export default function Home() {
             </div>
 
             <div className="text-center">
-              <div className="bg-earth-50 rounded-2xl p-8 mb-6 h-64 flex items-center justify-center">
-                <img src="/service-compost.svg" alt="Compost collection" className="w-48 h-48" />
+              <div className="bg-earth-50 rounded-2xl mb-6 h-64 overflow-hidden shadow-md">
+                <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=400&h=400&fit=crop" alt="Garden composting" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Compost Collection</h3>
               <p className="text-gray-600">
@@ -148,8 +148,8 @@ export default function Home() {
             </div>
 
             <div className="text-center">
-              <div className="bg-earth-50 rounded-2xl p-8 mb-6 h-64 flex items-center justify-center">
-                <img src="/service-yard.svg" alt="Yard cleanup service" className="w-48 h-48" />
+              <div className="bg-earth-50 rounded-2xl mb-6 h-64 overflow-hidden shadow-md">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop" alt="Yard maintenance" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Yard Cleanup</h3>
               <p className="text-gray-600">
